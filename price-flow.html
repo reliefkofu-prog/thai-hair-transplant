@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>費用や手術までの流れ - タイ植毛サポート</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .table-wrap { overflow-x: auto; margin-bottom: 40px; box-shadow: 0 0 0 1px var(--border-color); border-radius: 8px; }
+        .price-table { width: 100%; border-collapse: collapse; min-width: 800px; background: #fff; }
+        .price-table th, .price-table td { border: 1px solid var(--border-color); padding: 16px; font-size: 14px; text-align: center; }
+        .price-table th { background: #111; color: #fff; font-weight: 700; }
+        .price-table td:first-child { background: var(--bg-tertiary); font-weight: 700; text-align: left; width: 220px; }
+        
+        .expense-card { background: #fff; border: 1px solid var(--border-color); padding: 32px; border-radius: 8px; margin-bottom: 24px; }
+        .expense-header { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 16px; margin-bottom: 16px; }
+        .expense-title { font-size: 20px; font-weight: 700; }
+        .expense-cost { font-size: 24px; font-weight: 800; color: #111; }
+        
+        .step-item { display: flex; gap: 32px; padding: 40px 0; border-bottom: 1px dashed var(--border-color); }
+        .step-item:last-child { border-bottom: none; }
+        .step-number { font-size: 48px; font-weight: 800; color: var(--text-light); opacity: 0.3; line-height: 1; }
+        .step-title { font-size: 22px; font-weight: bold; margin-bottom: 16px; display: inline-block; background: var(--bg-secondary); padding: 4px 16px; border-radius: 4px; }
+        .step-desc { font-size: 15px; color: var(--text-secondary); line-height: 1.8; }
+        
+        .section-headline { font-size: 24px; font-weight: bold; margin-bottom: 24px; padding-bottom: 12px; border-bottom: 2px solid var(--text-primary); }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo-placeholder" style="text-decoration: none;">サイトロゴ</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="clinics.html">提携クリニック</a></li>
+                    <li><a href="cases.html">症例（ブログ）</a></li>
+                    <li><a href="price-flow.html" style="font-weight: 700; border-bottom: 2px solid var(--text-primary); padding-bottom: 4px;">費用や手術の流れ</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="contact.html" class="btn btn-secondary">無料相談・お問い合わせ</a>
+            </div>
+        </div>
+    </header>
+
+        <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1 class="page-title">費用・手術までの流れ</h1>
+        </div>
+    </div>
+
+    <!-- 費用について -->
+    <section class="section" style="padding-top: 40px;">
+        <div class="container">
+            <h2 class="section-headline">タイ植毛の費用について</h2>
+            <div class="text-box" style="max-width: 100%; margin-bottom: 64px;">
+                <p>タイの植毛費用は、術式とグラフト数（移植する株数）で決まります。写真を送っていただくだけで、適した術式・必要株数・概算費用を事前にご案内できます。</p>
+                <p>FUEやFUTといった術式の違いや、髪を剃るか剃らないか（ノンシェーブ）などの選択肢に加え、薄毛の範囲やご希望のデザインによって必要なグラフト数が異なるため、正確な費用はカウンセリングにて決定いたします。</p>
+                
+                <div style="background: var(--bg-secondary); padding: 24px; text-align: center; border-radius: 8px; margin: 32px 0; font-weight: bold; font-size: 20px;">
+                    植毛費用 = 1グラフト単価 × グラフト数 +（血液検査費用）
+                </div>
+                <p style="text-align: center; font-size: 14px; color: var(--text-secondary); margin-bottom: 8px;">※薬代や術後ケアなどは基本的に手術費用に含まれています。</p>
+                <p style="text-align: center; font-size: 14px; color: #111; font-weight: bold; margin-bottom: 32px;">※お支払いはすべて、直接現地クリニックに直接お支払いいただきます（当サービスへのお支払いは一切ありません）。</p>
+
+                <h4 style="font-weight: bold; margin-bottom: 16px;">大まかな必要グラフト数の目安</h4>
+                <ul class="check-list">
+                    <li>生え際：1,000〜2,000 graft</li>
+                    <li>頭頂部：1,000〜2,000 graft</li>
+                    <li>広範囲：3,000〜4,000 graft</li>
+                </ul>
+            </div>
+
+            <h2 class="section-headline">施術費用以外にかかる費用</h2>
+            <p style="margin-bottom: 32px;">渡航・宿泊・食費・交通費を含めた施術費以外の総額は、<strong>約10万円前後</strong>が目安です。<br>クリニックのプロモーション次第では宿泊費が無料になるケースもあり、実質的な追加負担をさらに抑えられる場合があります。</p>
+            
+            <div class="grid-2">
+                <div class="expense-card">
+                    <div class="expense-header">
+                        <span class="expense-title">航空券（往復）</span>
+                        <span class="expense-cost">約5万円前後</span>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-secondary);">日本からバンコクまでの航空券は、時期や航空会社によって変動します。LCCを利用した場合、往復で5万円前後になることが多いです。</p>
+                </div>
+                <div class="expense-card">
+                    <div class="expense-header">
+                        <span class="expense-title">宿泊費</span>
+                        <span class="expense-cost">無料〜実費</span>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-secondary);">クリニックのプロモーションによりホテル宿泊が無料になる場合があります。自己手配の場合は2泊3日分等の宿泊費が必要です。</p>
+                </div>
+                <div class="expense-card">
+                    <div class="expense-header">
+                        <span class="expense-title">食費</span>
+                        <span class="expense-cost">約0.5〜1万円</span>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-secondary);">タイは日本より物価が安く、数日滞在の場合、食費は比較的安く抑えることができます。</p>
+                </div>
+                <div class="expense-card">
+                    <div class="expense-header">
+                        <span class="expense-title">現地交通費</span>
+                        <span class="expense-cost">約2〜5千円</span>
+                    </div>
+                    <p style="font-size: 14px; color: var(--text-secondary);">空港からホテル、ホテルからクリニックまでの移動は、タクシーや配車アプリ（Grab）を利用するのが一般的です。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 比較表 -->
+    <section class="section section-bg">
+        <div class="container">
+            <h2 class="section-headline">クリニック別 料金・サービス比較表</h2>
+            
+            <div style="margin-bottom: 32px; background: #fff; padding: 24px; border-radius: 8px; border: 1px solid var(--border-color);">
+                <ul class="check-list" style="margin-bottom: 0;">
+                    <li><strong>費用を抑えたい</strong> → Hair Restore</li>
+                    <li><strong>宿泊サポートも重視したい</strong> → Full Hair</li>
+                    <li><strong>本院の実績・安心感を優先したい</strong> → DHT Clinic</li>
+                </ul>
+            </div>
+
+            <h3 style="font-size: 20px; font-weight: bold; margin-bottom: 16px;">料金比較</h3>
+            <div class="table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>DHT Clinic<br>（パット先生）</th>
+                            <th>Hair Restore<br>（プラポート先生）</th>
+                            <th>Full Hair<br>（パス先生）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>FUT（1株）</td><td>123B（約603円）</td><td>80B（約392円）</td><td>80B（約392円）</td></tr>
+                        <tr><td>FUE（丸刈り / 1株）</td><td>123B（約603円）</td><td>80B（約392円）</td><td>80B（約392円）</td></tr>
+                        <tr><td>FUE（一部刈り / 1株）</td><td>なし</td><td>90B〜100B<br>（約441〜490円）</td><td>90B〜100B<br>（約441〜490円）</td></tr>
+                        <tr><td>ノンシェーブン（1株）</td><td>なし</td><td>140B（約686円）</td><td>140B（約686円）</td></tr>
+                        <tr><td>ヒゲドナー（1株）</td><td>150B（約735円）</td><td>110B（約539円）</td><td>110B（約539円）</td></tr>
+                        <tr><td>最低施術費用</td><td>78,000B〜<br>（約382,200円〜）</td><td>40,000B<br>（約196,000円）</td><td>40,000B<br>（約196,000円）</td></tr>
+                        <tr><td>術前血液検査費用</td><td>1,300B（約6,370円）</td><td>0B（無料）</td><td>1,000B（約4,900円）</td></tr>
+                        <tr><td>カード決済手数料</td><td>3%（VISA / MASTER）</td><td>0%（無料）</td><td>3%（VISA / MASTER）</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 style="font-size: 20px; font-weight: bold; margin-top: 64px; margin-bottom: 16px;">1,500株 FUT 総額シミュレーション</h3>
+            <p style="margin-bottom: 16px;">※施術以外の費用（約10万円）は別途必要。</p>
+            <div class="table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>DHT Clinic（本院）</th>
+                            <th>Hair Restore（分院）</th>
+                            <th>Full Hair（分院）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>手術代（1,500株）</td><td>184,500B（約904,050円）</td><td>120,000B（約588,000円）</td><td>120,000B（約588,000円）</td></tr>
+                        <tr><td>術前血液検査</td><td>1,300B（約6,370円）</td><td>0B（無料）</td><td>1,000B（約4,900円）</td></tr>
+                        <tr><td>カード手数料（3%）</td><td>+5,535B（約27,121円）</td><td>0B（無料）</td><td>+3,600B（約17,640円）</td></tr>
+                        <tr><td>宿泊費（目安）</td><td>自己負担（数万円〜）</td><td>0円（高級ホテル2泊無料）</td><td>0円（中級ホテル4泊無料）</td></tr>
+                        <tr><td>PRP注射</td><td>自己負担（要確認）</td><td>0円（無料特典）</td><td>0円（無料特典）</td></tr>
+                        <tr style="background: var(--bg-tertiary); font-weight: bold;"><td>概算合計</td><td>約937,541円</td><td>約588,000円</td><td>約610,540円</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 style="font-size: 20px; font-weight: bold; margin-top: 64px; margin-bottom: 16px;">1,500株 FUE（ノンシェーブン）総額シミュレーション</h3>
+            <div class="table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>項目</th>
+                            <th>DHT Clinic（本院）</th>
+                            <th>Hair Restore（分院）</th>
+                            <th>Full Hair（分院）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>手術代（1,500株）</td><td>ノンシェーブン施術なし</td><td>210,000B（約1,029,000円）</td><td>210,000B（約1,029,000円）</td></tr>
+                        <tr><td>術前血液検査</td><td>1,300B（約6,370円）</td><td>0B（無料）</td><td>1,000B（約4,900円）</td></tr>
+                        <tr><td>カード手数料（3%）</td><td>―</td><td>0B（無料）</td><td>+6,330B（約31,017円）</td></tr>
+                        <tr><td>宿泊費（目安）</td><td>自己負担（数万円〜）</td><td>0円（高級ホテル2泊無料）</td><td>0円（中級ホテル4泊無料）</td></tr>
+                        <tr><td>PRP注射</td><td>自己負担（要確認）</td><td>0円（無料特典）</td><td>0円（無料特典）</td></tr>
+                        <tr style="background: var(--bg-tertiary); font-weight: bold;"><td>概算合計</td><td>―</td><td>約1,029,000円</td><td>約1,064,917円</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 style="font-size: 20px; font-weight: bold; margin-top: 64px; margin-bottom: 16px;">特別特典（プロモーション）</h3>
+            <p style="margin-bottom: 16px; font-size: 14px; color: var(--text-secondary);">※時期によって内容が変更になることがあります。</p>
+            <div class="table-wrap">
+                <table class="price-table">
+                    <thead>
+                        <tr>
+                            <th>特典内容</th>
+                            <th>DHT Clinic（本院）</th>
+                            <th>Hair Restore（分院）</th>
+                            <th>Full Hair（分院）</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>宿泊特典</td><td>なし</td><td>高級ホテル2泊無料</td><td>中級ホテル4泊無料</td></tr>
+                        <tr><td>再生医療PRP</td><td>なし</td><td>無料</td><td>無料</td></tr>
+                        <tr><td>日本人限定優遇</td><td>なし</td><td>時期により追加株数の無料サービス</td><td>時期により追加株数の無料サービス</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- 術後の過ごし方 -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-headline">術後の過ごし方について</h2>
+            <div class="text-box" style="max-width: 100%;">
+                <p>植毛後の数日間は、特に移植した毛根が定着する大切な時期です。以下の点に気をつけながら過ごしてください。</p>
+                <ul class="check-list" style="margin-bottom: 24px; display: flex; flex-wrap: wrap; gap: 8px 24px;">
+                    <li>激しい運動を避ける</li>
+                    <li>長時間の外出を控える</li>
+                    <li>強い日差しを避ける</li>
+                    <li>帽子や頭部への刺激に注意する</li>
+                </ul>
+                <p>植毛後の過ごし方やケアは植毛を成功させるために重要な要素となります。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 植毛手術までの流れ -->
+    <section class="section section-bg">
+        <div class="container">
+            <h2 class="section-headline">植毛手術までの流れ</h2>
+            <p style="margin-bottom: 40px; font-size: 16px;">海外での植毛が初めての方でも安心して進められるよう、相談から施術、帰国後のケアまでの流れをご説明します。</p>
+
+            <div style="background: #fff; padding: 40px; border-radius: 8px; border: 1px solid var(--border-color);">
+                
+                <div class="step-item">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">無料オンラインカウンセリング</h3>
+                        <div class="step-desc">
+                            <p>「自分に植毛が合うかわからない」という段階でも大丈夫です。LINEまたはお問い合わせフォームからご相談ください。医療知識のある日本人スタッフ（医師・薬剤師・看護師など）が無料オンラインカウンセリングを行います。写真を送っていただければ、必要グラフト数と概算費用もその場でお伝えできます。</p>
+                            <p>・植毛の適応<br>・必要グラフト数の目安<br>・概算費用<br>相談のみでも問題ありません。まずはお気軽にご相談ください。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">医師オンラインカウンセリング</h3>
+                        <div class="step-desc">
+                            <p>次のステップとして、<strong>現地クリニックの医師を含めたオンラインカウンセリング</strong>を行います。通訳が同席するため、日本語で安心して相談できます。<br>通訳費用は5,000円となります。（日本人通訳、タイ人通訳の場合でも一律料金となります。）</p>
+                            <p>・薄毛の状態の診断<br>・希望する生え際デザイン<br>・必要グラフト数の目安<br>・施術方法（術式）の選択<br>・費用の最終目安</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">手術日の予約</h3>
+                        <div class="step-desc">
+                            <p>施術をご希望の場合は、クリニックのスケジュールを確認し手術日を予約します。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">航空券の予約</h3>
+                        <div class="step-desc">
+                            <p>手術日が決まったら、タイへの航空券を予約します。滞在は通常2〜3泊程度で、ホテルはプロモーションによりサービスとなる場合があります。予約のサポートをさせていただくことも可能です。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <h3 class="step-title">タイへ渡航</h3>
+                        <div class="step-desc">
+                            <p>手術前日または当日にタイへ渡航します。<br><strong>一般的なスケジュール例（1日目）</strong>：日本出発 → バンコク到着 → ホテルチェックイン</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">06</div>
+                    <div class="step-content">
+                        <h3 class="step-title">最終カウンセリング</h3>
+                        <div class="step-desc">
+                            <p>手術当日にクリニックで最終カウンセリングを行います。<br>ここで、生え際デザイン、移植グラフト数、手術内容、手術時間と当日のスケジュールを医師と最終確認します。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">07</div>
+                    <div class="step-content">
+                        <h3 class="step-title">植毛手術</h3>
+                        <div class="step-desc">
+                            <p>手術は<strong>局所麻酔で行う日帰り手術</strong>です。手術時間は約4〜8時間です。移植する術式とグラフト数によって時間は変わります。手術後はホテルで安静に過ごします。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">08</div>
+                    <div class="step-content">
+                        <h3 class="step-title">術後ケア</h3>
+                        <div class="step-desc">
+                            <p>手術の翌日にクリニックで術後チェックとケアを行います。<br>・クリニックでの洗髪<br>・頭皮の状態の確認<br>・術後の注意事項の説明</p>
+                            <p>また、自宅でのケアについてもシャンプー方法、枕の使い方、薬の服用方法などを丁寧に説明します。この確認が終われば、帰国することが可能です。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">09</div>
+                    <div class="step-content">
+                        <h3 class="step-title">帰国</h3>
+                        <div class="step-desc">
+                            <p>通常は手術の翌日か翌々日に帰国ができます。植毛は体への負担が少ない手術のため、多くの方が短期間の滞在で施術を受けています。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-item">
+                    <div class="step-number">10</div>
+                    <div class="step-content">
+                        <h3 class="step-title">帰国後ケア</h3>
+                        <div class="step-desc">
+                            <p>帰国後もクリニック公式LINEなどでアフターケア相談が可能です。クリニック公式LINEと当サポートを併用した日本語サポート対応が可能です。術後の経過や気になる点についていつでもご相談いただけます。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- よくある質問（Q&A） -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-headline">よくある質問（Q&A）</h2>
+            <div class="faq-list">
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q1 植毛手術は痛いですか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        手術は局所麻酔で行うため、施術中の痛みはほとんどありません。麻酔の注射の際に少しチクっとした痛みがありますが、その後は痛みを感じることはほとんどありません。痛みを感じるときには遠慮なくスタッフに伝えてください。麻酔薬や鎮痛薬を状態にあわせて調整いたします。術後は軽い違和感や腫れが出る場合がありますが、多くの場合は数日で落ち着きます。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q2 何日くらいの滞在が必要ですか？帰国はいつできますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        一般的には 2〜3日程度の滞在 で施術が可能です。<br>
+                        【滞在例】<br>
+                        ・1日目：タイ到着・ホテルチェックイン<br>
+                        ・2日目：術前カウンセリング・植毛手術<br>
+                        ・3日目：術後チェックとケア・帰国<br>
+                        手術翌日にクリニックで術後チェックと洗髪ケアを受けた後、帰国が可能です。余裕を持ちたい方は4〜5日程度滞在される方もいます。植毛は体への負担が少ない手術のため、多くの方が短期間の滞在で施術を受けています。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q3 手術後に観光はできますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        術後は移植した毛根を安定させるため、安静に過ごすことが推奨されています。長時間の外出は負担になるため、控えていただくと良いです。<br>
+                        近くのショッピングモールでのお買い物や食事などをお勧めしております。日本食レストランや足裏マッサージなど楽しんでいただくことは可能です。<br>
+                        多くの方はホテルでゆっくり過ごし、術後チェックとケアを受けて帰国されます。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q4 植毛した髪はどのくらいで生えてきますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        植毛した髪は、手術後すぐに伸び続けるわけではなく、一度抜けてから再び生えてくるという特徴があります。<br>
+                        【一般的な経過の目安】<br>
+                        ・2週間～2ヶ月前後：移植した髪と既存毛が抜ける時期（脱落やショックロスと呼ばれます）<br>
+                        ・3〜4ヶ月：新しい髪の発毛が始まる時期<br>
+                        ・6ヶ月：見た目の変化を感じる方が増える時期<br>
+                        ・12ヶ月：完成に近い状態になる時期<br>
+                        植毛後は個人差がありますが一部に脱毛が起きることがあります。この時期に関しては短期間とうこともあり、待つ期間だと考えてください。脱毛も正常な毛髪サイクルになる準備段階ですので、心配する必要はないです。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q5 植毛の効果は永続しますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        移植に使用する毛根は、後頭部など薄毛の影響を受けにくい部位から採取します。この毛根はDHT（薄毛の原因となるホルモン）の影響を受けにくい性質を持つため、移植後も抜けにくく、長期的な効果が期待できます。<br>
+                        ただし、植毛した部分の周囲にある既存の毛については、薄毛が進行する可能性があります。そのため、フィナステリドやミノキシジルなどを併用し、薄毛の進行を抑えることを推奨する場合があります。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q6 植毛とAGA治療薬は何が違いますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        AGA治療薬（フィナステリド・ミノキシジルなど）は、これ以上薄毛を進行させない・現在の髪を維持・増やすことを目的とした治療です。一方、植毛はすでに薄くなった部分に毛根を移植し、髪を物理的に増やす施術です。<br>
+                        「薬を飲んでいるが、薄くなった部分が気になる」「より早く見た目を改善したい」という方に、植毛は特に有効な選択肢となります。薬と植毛を併用するケースも多くあります。<br>
+                        またAGA治療薬の効果は頭頂部に限定的であることが多く、効果がみられる年齢も若年層が多いです。そのため進行された薄毛に関しては植毛が適応となることが多いです。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q7 術後もAGA治療薬を飲み続ける必要がありますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        移植した毛根自体は薬なしでも維持されますが、周辺の既存毛の薄毛進行を抑えるために、術後も内服薬の継続をおすすめする場合があります。<br>
+                        薬の継続については、医師カウンセリングの際に個別にご相談いただけます。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q8 植毛は周りにバレますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        術後数日間は個人差がありますが赤みや腫れが出ることがあります。ただ、髪を少し伸ばしておく・数日の有休取得などで、職場や家族に気づかれずに済んでいる方がほとんどです。<br>
+                        個々の状態にあわせて、以下のような対策をご提案・サポートさせていただくことが多いです。<br>
+                        ・髪の毛を少し長めに伸ばしておく<br>
+                        ・帽子やウイッグを着用する<br>
+                        ・バンダナを使用する<br>
+                        ・渡航を含めて数日〜1週間程度の休暇を取る<br>
+                        また、植毛後は直射日光は避ける必要があるため、クリニックからはバンダナの支給があり着用する方が多いです。カウンセリング時には、髪型やお仕事の状況に合わせて目立ちにくい方法やダウンタイムの過ごし方についてもご案内します。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q9 女性でも植毛は受けられますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        はい、女性の方も施術を受けることができます。女性の薄毛（びまん性脱毛・分け目の薄さ、頭頂部の薄さなど）でお悩みの方からのご相談も承っています。<br>
+                        海外では女性の植毛も非常に多く実施されております。タイ植毛では周りの目を気にせずに植毛に専念することが可能あり、最新の需要は伸びております。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q10 植毛は何歳から受けられますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        一般的には20歳以上であれば施術可能です。ただし薄毛の進行状況によっては、医師から将来的なデザインを考慮した提案を行う場合があります。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q11 支払い方法を教えてください。</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        クリニックによって対応が異なります。現金（タイバーツ）のほか、クレジットカード（VISA・Mastercard）でのお支払いが可能です。<br>
+                        ただし、クリニックによってはカード決済に手数料（約3%）が発生する場合があります。手数料が気になる方には、現金払いやカード手数料無料のクリニックもご案内できますので、カウンセリング時にお気軽にご相談ください。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q12 3つのクリニック、どう選べばよいですか ？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        それぞれのクリニックに特徴があります。<br>
+                        ・費用をできるだけ抑えたい方 → Hair Restore（価格が最もリーズナブル、カード手数料無料）<br>
+                        ・宿泊サポートも充実させたい方 → Full Hair（中級ホテル4泊無料など特典が手厚い）<br>
+                        ・実績・安心感を最優先したい方 → DHT Clinic（本院としての豊富な実績）<br>
+                        どのクリニックが合うかは、薄毛の状態・ご予算・ご希望によって異なります。無料オンラインカウンセリングでご状況をお伺いしたうえで、最適なクリニックをご提案します。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q13 日本語は通じますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        クリニックは英語対応ですが、相談・カウンセリング・手術当日のすべてに日本語通訳が対応します。言葉の壁を理由に迷う必要はありません。<br>
+                        医療従事者（医師、薬剤師、看護師等）で語学が非常に堪能な通訳チームを構成しており、24時間対応も可能です。
+                    </div>
+                </details>
+                <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
+                    <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q14 現地への同行サポートはありますか？</summary>
+                    <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
+                        現地までの渡航等不安な方には同行サポート（オプション）もご案内しています。同行サポートは、週末・ゴールデンウイーク・年末年始・お盆休みなどのタイミングで可能です。ご希望がございましたら遠慮なくご連絡ください。<br>
+                        当日は医療に詳しい通訳スタッフが同行し、クリニックでのカウンセリングや手術当日のサポートを行います。同行費用はご負担いただきますが、複数名での参加を想定しているため、人数が集まることで比較的リーズナブルにご利用いただけます。
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 無限スライダー -->
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+        </div>
+    </div>
+
+    <!-- CTA: まずは匿名相談、無料カウンセリングへ -->
+    <section class="section section-bg">
+
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-col-text">
+                    <h2 class="cta-title">まずは匿名相談、無料カウンセリングへ</h2>
+                    <p class="cta-text">
+                        不安が1つでもあるなら、まずは匿名で相談から。<br>
+                        整理できたら、無料オンラインカウンセリングで確認できます。
+                    </p>
+                    
+                    <div class="cta-points">
+                        <p>よくある相談</p>
+                        <p class="cta-slash-list">総額の目安は？ / 何日休めばいい？ / 家族・職場に気づかれない？ / 植毛できる条件は？</p>
+                    </div>
+                </div>
+
+                <div class="cta-col-btns">
+                    <div class="cta-buttons-vertical">
+                        <a href="contact.html" class="btn btn-line">匿名で相談する</a>
+                        <a href="contact.html" class="btn btn-primary">無料カウンセリングを申込む</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- パンくずリスト -->
+    <div style="border-bottom: 1px solid var(--border-color); padding: 12px 0; font-size: 13px; color: var(--text-secondary); background: var(--bg-primary);">
+        <div class="container">
+            <a href="index.html" style="color: inherit; text-decoration: none;">ホーム</a> <span style="margin: 0 8px;">&gt;</span> 費用や手術までの流れ
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner" style="flex-direction: column; align-items: center; text-align: center; margin-bottom: 40px; gap: 40px;">
+                <nav class="footer-nav-horizontal">
+                    <a href="index.html">ホーム</a>
+                    <a href="clinics.html">提携クリニック</a>
+                    <a href="cases.html">症例</a>
+                    <a href="price-flow.html">費用や手術の流れ</a>
+                    <a href="contact.html">無料相談・お問い合わせ</a>
+                </nav>
+            </div>
+            <div class="copyright">
+                &copy; 2026 タイ植毛サポート. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

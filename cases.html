@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>症例（ブログ） - タイ植毛サポート</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-bottom: 40px; }
+        .pagination { display: flex; justify-content: center; gap: 8px; margin-top: 40px; }
+        .page-link { width: 40px; height: 40px; border: 1px solid var(--border-color); display: flex; align-items: center; justify-content: center; text-decoration: none; color: var(--text-primary); border-radius: 4px; font-weight: bold;}
+        .page-link.active { background: var(--text-primary); color: #fff; }
+        
+        .category-tabs { display: flex; gap: 16px; justify-content: center; margin-bottom: 48px; }
+        .cat-tab { padding: 8px 24px; border: 1px solid var(--border-color); border-radius: 40px; text-decoration: none; color: var(--text-primary); }
+        .cat-tab.active { background: var(--text-primary); color: #fff; }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container header-inner">
+            <a href="index.html" class="logo-placeholder" style="text-decoration: none;">サイトロゴ</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="clinics.html">提携クリニック</a></li>
+                    <li><a href="cases.html" style="font-weight: 700; border-bottom: 2px solid var(--text-primary); padding-bottom: 4px;">症例（ブログ）</a></li>
+                    <li><a href="price-flow.html">費用や手術の流れ</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="contact.html" class="btn btn-secondary">無料相談・お問い合わせ</a>
+            </div>
+        </div>
+    </header>
+
+        <!-- Page Header -->
+    <div class="page-header">
+        <div class="container">
+            <h1 class="page-title">症例（ブログ）</h1>
+        </div>
+    </div>
+
+    <!-- Content -->
+    <section class="section" style="padding-top: 64px;">
+        <div class="container">
+
+            <div class="blog-grid">
+                <!-- Card 1 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.04.02 </div>
+                        <h3 class="card-title">30代男性 / FUE 1500株 / DHT Hair Clinic</h3>
+                    </div>
+                </a>
+                
+                <!-- Card 2 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.03.15 </div>
+                        <h3 class="card-title">40代男性 / FUT 2500株 / Full Hair by DHT</h3>
+                    </div>
+                </a>
+                
+                <!-- Card 3 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.02.28 </div>
+                        <h3 class="card-title">20代男性 / FUE 1000株 / Hair Restore by DHT</h3>
+                    </div>
+                </a>
+
+                <!-- Card 4 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.02.10 </div>
+                        <h3 class="card-title">50代男性 / 他院修正 FUE 2000株 / DHT Hair Clinic</h3>
+                    </div>
+                </a>
+
+                <!-- Card 5 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.01.25 </div>
+                        <h3 class="card-title">40代男性 / FUT 1800株 / Hair Restore by DHT</h3>
+                    </div>
+                </a>
+
+                <!-- Card 6 -->
+                <a href="#" class="card">
+                    <div class="card-image" style="height: 240px;">症例写真 Placeholder<br>(Before / After)</div>
+                    <div class="card-content">
+                        <div class="card-meta">2026.01.05 </div>
+                        <h3 class="card-title">30代男性 / FUE 3000株 / Full Hair by DHT</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="pagination">
+                <a href="#" class="page-link active">1</a>
+                <a href="#" class="page-link">2</a>
+                <a href="#" class="page-link">3</a>
+                <span class="page-link" style="border: none;">...</span>
+                <a href="#" class="page-link">&gt;</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 無限スライダー -->
+    <div class="marquee-wrapper">
+        <div class="marquee-content">
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <!-- Duplicate for seamless loop -->
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+            <div class="marquee-item">手術室</div>
+            <div class="marquee-item">症例写真</div>
+            <div class="marquee-item">クリニック内観</div>
+        </div>
+    </div>
+
+    <!-- CTA: まずは匿名相談、無料カウンセリングへ -->
+    <section class="section section-bg">
+
+        <div class="container">
+            <div class="cta-box">
+                <div class="cta-col-text">
+                    <h2 class="cta-title">まずは匿名相談、無料カウンセリングへ</h2>
+                    <p class="cta-text">
+                        不安が1つでもあるなら、まずは匿名で相談から。<br>
+                        整理できたら、無料オンラインカウンセリングで確認できます。
+                    </p>
+                    
+                    <div class="cta-points">
+                        <p>よくある相談</p>
+                        <p class="cta-slash-list">総額の目安は？ / 何日休めばいい？ / 家族・職場に気づかれない？ / 植毛できる条件は？</p>
+                    </div>
+                </div>
+
+                <div class="cta-col-btns">
+                    <div class="cta-buttons-vertical">
+                        <a href="contact.html" class="btn btn-line">匿名で相談する</a>
+                        <a href="contact.html" class="btn btn-primary">無料カウンセリングを申込む</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- パンくずリスト -->
+    <div style="border-bottom: 1px solid var(--border-color); padding: 12px 0; font-size: 13px; color: var(--text-secondary); background: var(--bg-primary);">
+        <div class="container">
+            <a href="index.html" style="color: inherit; text-decoration: none;">ホーム</a> <span style="margin: 0 8px;">&gt;</span> 症例（ブログ）
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-inner" style="flex-direction: column; align-items: center; text-align: center; margin-bottom: 40px; gap: 40px;">
+                <nav class="footer-nav-horizontal">
+                    <a href="index.html">ホーム</a>
+                    <a href="clinics.html">提携クリニック</a>
+                    <a href="cases.html">症例</a>
+                    <a href="price-flow.html">費用や手術の流れ</a>
+                    <a href="contact.html">無料相談・お問い合わせ</a>
+                </nav>
+            </div>
+            <div class="copyright">
+                &copy; 2026 タイ植毛サポート. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
