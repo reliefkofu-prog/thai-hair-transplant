@@ -89,13 +89,13 @@ qa_html = """
                         ・帽子やウイッグを着用する<br>
                         ・バンダナを使用する<br>
                         ・渡航を含めて数日〜1週間程度の休暇を取る<br>
-                        また、植毛後は直射日光は避ける必要があるため、クリニックからはバンダナの支給があり着用する方が多いです。カウンセリング時には、髪型やお仕事の状況に合わせて目立ちにくい方法やダウンタイムの過ごし方についてもご案内します。
+                        また、植毛後は直射日光は避ける必要があるため、クリニックからはバンダナの支給があり着用する方が多いです。カウンセリング時には、髪型やお仕事の状況に合わせて目立ちにくい方法やダウンタイムの過ごし方についてもご案内いたします。
                     </div>
                 </details>
                 <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
                     <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q9 女性でも植毛は受けられますか？</summary>
                     <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
-                        はい、女性の方も施術を受けることができます。女性の薄毛（びまん性脱毛・分け目の薄さ、頭頂部の薄さなど）でお悩みの方からのご相談も承っています。<br>
+                        はい、女性の方も施術を受けることができます。女性の薄毛（びまん性脱毛・分け目の薄さ、頭頂部の薄さなど）でお悩みの方からのご相談も承っております。<br>
                         海外では女性の植毛も非常に多く実施されております。タイ植毛では周りの目を気にせずに植毛に専念することが可能あり、最新の需要は伸びております。
                     </div>
                 </details>
@@ -109,7 +109,7 @@ qa_html = """
                     <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q11 支払い方法を教えてください。</summary>
                     <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
                         クリニックによって対応が異なります。現金（タイバーツ）のほか、クレジットカード（VISA・Mastercard）でのお支払いが可能です。<br>
-                        ただし、クリニックによってはカード決済に手数料（約3%）が発生する場合があります。手数料が気になる方には、現金払いやカード手数料無料のクリニックもご案内できますので、カウンセリング時にお気軽にご相談ください。
+                        ただし、クリニックによってはカード決済に手数料（約3%）が発生する場合があります。手数料が気になる方には、現金払いやカード手数料無料のクリニックもご案内いたしますので、カウンセリング時にお気軽にご相談ください。
                     </div>
                 </details>
                 <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
@@ -119,20 +119,20 @@ qa_html = """
                         ・費用をできるだけ抑えたい方 → Hair Restore（価格が最もリーズナブル、カード手数料無料）<br>
                         ・宿泊サポートも充実させたい方 → Full Hair（中級ホテル4泊無料など特典が手厚い）<br>
                         ・実績・安心感を最優先したい方 → DHT Clinic（本院としての豊富な実績）<br>
-                        どのクリニックが合うかは、薄毛の状態・ご予算・ご希望によって異なります。無料オンラインカウンセリングでご状況をお伺いしたうえで、最適なクリニックをご提案します。
+                        どのクリニックが合うかは、薄毛の状態・ご予算・ご希望によって異なります。無料オンラインカウンセリングでご状況をお伺いしたうえで、最適なクリニックをご提案いたします。
                     </div>
                 </details>
                 <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
                     <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q13 日本語は通じますか？</summary>
                     <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
-                        クリニックは英語対応ですが、相談・カウンセリング・手術当日のすべてに日本語通訳が対応します。言葉の壁を理由に迷う必要はありません。<br>
+                        クリニックは英語対応ですが、相談・カウンセリング・手術当日のすべてに日本語通訳が対応いたします。言葉の壁を理由に迷う必要はありません。<br>
                         医療従事者（医師、薬剤師、看護師等）で語学が非常に堪能な通訳チームを構成しており、24時間対応も可能です。
                     </div>
                 </details>
                 <details style="margin-bottom: 16px; border: 1px solid var(--border-color); border-radius: 8px; background: #fff;">
                     <summary style="padding: 24px; font-weight: bold; cursor: pointer; font-size: 18px;">Q14 現地への同行サポートはありますか？</summary>
                     <div style="padding: 0 24px 24px 24px; color: var(--text-secondary); line-height: 1.8;">
-                        現地までの渡航等不安な方には同行サポート（オプション）もご案内しています。同行サポートは、週末・ゴールデンウイーク・年末年始・お盆休みなどのタイミングで可能です。ご希望がございましたら遠慮なくご連絡ください。<br>
+                        現地までの渡航等不安な方には同行サポート（オプション）もご案内しております。同行サポートは、週末・ゴールデンウイーク・年末年始・お盆休みなどのタイミングで可能です。ご希望がございましたら遠慮なくご連絡ください。<br>
                         当日は医療に詳しい通訳スタッフが同行し、クリニックでのカウンセリングや手術当日のサポートを行います。同行費用はご負担いただきますが、複数名での参加を想定しているため、人数が集まることで比較的リーズナブルにご利用いただけます。
                     </div>
                 </details>
