@@ -11,7 +11,7 @@ cases = re.sub(r'\s*<p class="card-text">.*?</p>', '', cases, flags=re.DOTALL)
 with open(cases_path, "w", encoding="utf-8") as f:
     f.write(cases)
 
-price_path = "/Users/satoseiya/Desktop/AG/タイ植毛/price-flow.html"
+price_path = "/Users/satoseiya/Desktop/AG/タイ植毛/flow.html"
 with open(price_path, "r", encoding="utf-8") as f:
     price_content = f.read()
 

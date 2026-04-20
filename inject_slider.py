@@ -1,7 +1,7 @@
 import os
 
 base = "/Users/satoseiya/Desktop/AG/タイ植毛/"
-files = ["index.html", "clinics.html", "cases.html", "price-flow.html"]
+files = ["index.html", "clinics.html", "cases.html", "price.html", "flow.html"]
 
 slider_html = """
     <!-- 無限スライダー -->

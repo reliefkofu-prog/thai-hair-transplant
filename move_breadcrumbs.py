@@ -2,7 +2,7 @@ import re
 import os
 
 base_path = "/Users/satoseiya/Desktop/AG/タイ植毛"
-files = ["index.html", "clinics.html", "price-flow.html", "cases.html", "contact.html"]
+files = ["index.html", "clinics.html", "price.html", "flow.html", "cases.html", "contact.html"]
 
 for f in files:
     path = os.path.join(base_path, f)
@@ -14,10 +14,10 @@ for f in files:
     
     # 1. Menu Links Correction
     header_nav = """<ul class="nav-links">
-                    <li><a href="index.html">ホーム</a></li>
                     <li><a href="clinics.html">提携クリニック</a></li>
-                    <li><a href="cases.html">症例（ブログ）</a></li>
-                    <li><a href="price-flow.html">費用や手術の流れ</a></li>
+                    <li><a href="cases.html">症例紹介</a></li>
+                    <li><a href="price.html">費用について</a></li>
+                    <li><a href="flow.html">植毛までの流れ</a></li>
                 </ul>"""
     # Replace the existing nav-links with correct global links but keeping active state if possible.
     # It's easier to just use standard links. We'll leave the active states alone or remove them since standard SWELL highlights based on URL. 
